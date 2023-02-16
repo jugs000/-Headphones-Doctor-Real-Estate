@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f0f4f5;
+
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.medifine{
+    margin-top: 25px;
+
+}
+.list1{
+    display: flex;
+    gap: 30px;
+    font-size: 35px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* contact-form -section */
+main{
+    margin-top: 150px;
+    margin-left: 650px;
+    position: relative;
+    width: 450px;
+    height: 480px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 50px;
+    
+}
+label{
+    position: relative;
+    right: 160px;
+}
+input{
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 10px;
+    position: relative;
+    right: 25px;
+    width: 320px;
+    border: none;
+}
+textarea{
+    position: relative;
+    width: 315px;
+    right: 25px;
+    border-radius: 12px;
+    height: 80px;
+    padding-top:8px;
+    padding-left: 6px;
+    color: grey;
+    border: none;
+    font-family: bolder;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn{
+    justify-content: center;
+    text-align: center;
+}
+button{
+    background: #20BC7E;
+    border-radius: 10px;
+    color: white;
+    padding: 6px;
+    font: bolder;
+    font-size: 16px;
+    width: 315px;
+    right: 25px;
+    margin-top: 6px;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    position: relative;
+    right: 16px;
+}

@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    color: white;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    gap: 80px;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-right: 80px;
+}
+ul li{
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+}
+.button{
+    font-size: 30px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    border-top-color: white;
+    border-left-color: white;
+    width: 200px;
+    height: 70px;
+}
+
+.beastlogo{
+    margin-top: 25px;
+}
+
+/* main-section */
+
+
+.mainimage{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: -80px;
+    margin-left: 180px;
+    height: 650px;
+}
+.onear{
+    width: 470px;
+    height: 140px;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+h1{
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+h3{
+    font-size: 25px;
+    margin-left: 105px;
+    margin-top: 30px;
+}
+p{
+    font-size: 20px;
+    margin-left: 107px;
+    margin-top: 20px;
+}
+.shopingbag{
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    background: transparent;
+    gap: 10px;
+    margin-top: 10px;
+    background: #1e1e21;
+    margin-right: 170px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.shopingbag img{
+    padding: 10px;
+    color: white;
+    width: 38px;
+}
+.shopingbag span {
+    background: transparent;
+}
+
+/* social -media-section */
+
+.social{
+    display: flex;
+    text-align: center;
+    gap: 200px;
+    margin-left: 500px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* specs-section */
+.specs{
+    text-align: center;
+    margin-top: 100px;
+}
+.specialimage{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    top: -400px;
+    margin-left: 1000px;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.listicons{
+    margin-right: 800px;
+}
+.bluetooth{
+    margin-left: 100px;
+}
+.bluetooth img{
+    margin-left: 20px;
+}
+.battery{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.battery img{
+    margin-left: 25px;
+}
+.charger{
+    margin-top: 40px;
+    margin-left: 105px;
+}
+.charger img{
+    margin-right: 70px;
+}
+.microphone{
+    margin-top: 30px;
+    margin-left: 180px;
+}
+.microphone img {
+    margin-right: 50px;
+}
+
+/* case-section-2 */
+.case{
+    text-align: center;
+}
+.product{
+    display: flex;
+    
+}
+.caseimage{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.caseimage p{
+    margin-top: 90px;
+    font-size: 20px;
+}
+.moreinfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    height: 50px;
+    width: 180px;
+    gap: 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 20px;
+    background: #1e1e21;
+    margin-left: 56%;
+    position: relative;
+    top: -150px;
+    cursor: pointer;
+} 
+.group img{
+    color: white; 
+}
+.group span {
+    background: transparent;
+ } 
+
+ /* section-5 */
+
+ .buynow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    background: #1e1e21;
+    width: 1100px;
+    height: 350px;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 400px;
+    cursor: pointer;
+ }
+ .buynow h2{
+    margin-right: 650px;
+ }
+ .buynow p {
+    margin-top: 16px;
+    margin-right: 650px;
+ }
+ .bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    gap: 10px;
+    background:#000000;
+    padding: 20px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right:725px;
+ }
+ .buysectional{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -250px;
+ }
+ .buysectional img{
+    position: absolute;
+ }
+
+ /* headphones section 6 */
+
+ .style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .headphones{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+   margin-left: 100px;
+   margin-top: 150px;
+   gap: 250px;
+ }
+ .item{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(74, 72, 72, 0.37);
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    gap: 30px;
+    cursor: pointer;
+ }
+ .item img{
+    margin-top: 200px;
+    width: 200px;
+ }
+.content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+    gap: 20px;
+    
+}
+.content p{
+    margin-right: 20px;
+}
+svg{
+    margin-right: 120px;
+}
+ 
+
+/* footer section */
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    height: 500px;
+    margin-left: 250px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+  display: flex;
+  align-content: center;
+  right: 120px;
+  gap: 120px;
+  position: relative;
+  
+}
+.socialmedia{
+    display: flex;
+    position: relative;
+    left: 50px;
+}
+.list1{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+}
+.list1 a{
+    margin: 4px;
+}
+.list2{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+}
+.list2 a{
+    margin: 4px;
+}
+input{
+    width: 400px;
+    height:50px;
+    border-radius: 6px;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 0 8px 32px 0 rgba(74, 72, 72, 0.37);
+    background-color:  #181A1B;
+    border:none;
+    margin-left: 150px;
+
+}
+.input button{
+    height: 42px;
+    width: 100px;
+    margin-top: 45px;
+    margin-right: 200px;
+    background-color:  #0A0A0B;
+    border: none;
+    position: relative;
+    right: 140px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.uparrow{
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+.rightarrow{
+    position: relative;
+    right: 150px;
+}
+.beastimage{
+    margin-top: 40px;
+}
+.head1 h1 {
+    font-size: 40px;
+    margin-top: 40px;
+}

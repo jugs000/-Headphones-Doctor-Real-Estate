@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: black;
+}
+body{
+    background-color:  #f0f4f5;;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* medifine logo section */
+
+.medifine{
+    margin-top: 25px;
+}
+
+/* navigation section */
+
+.list1{
+    display: flex;
+    font-size: 35px;
+    gap: 50px;
+    font-weight: bolder;
+}
+.list1 li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+ /* middle-section */
+
+ .container{
+    justify-content: center;
+    text-align: center;
+    margin-top: 250px;
+ }
+ h1{
+    color: #20bc7e;
+    font-size: 40px;
+ }
+ p{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 35px;
+ }
+ .buttons{
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 700;
+ }
+ span{
+    color: #20bc7e;
+    font: bolder;
+ }
+ button{
+    margin: 20px;
+    font-size: 20px;
+    padding: 20px;
+    width: 180px;
+    border-radius: 10px;
+    background: white;
+    border-color: white;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0 0 10px black;
+ }
